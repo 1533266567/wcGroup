@@ -1,0 +1,264 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-accont {
+  background-image: url(../sprites/sprite.png);
+  background-position: -130px -365px;
+  width: 51px;
+  height: 50px;
+}
+.icon-address {
+  background-image: url(../sprites/sprite.png);
+  background-position: -370px -187px;
+  width: 21px;
+  height: 34px;
+}
+.icon-adnormal {
+  background-image: url(../sprites/sprite.png);
+  background-position: -186px -365px;
+  width: 41px;
+  height: 43px;
+}
+.icon-advantage1 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -312px 0px;
+  width: 88px;
+  height: 88px;
+}
+.icon-advantage2 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -156px -156px;
+  width: 96px;
+  height: 90px;
+}
+.icon-advantage3 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -312px -93px;
+  width: 85px;
+  height: 89px;
+}
+.icon-aooew-down {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px 0px;
+  width: 40px;
+  height: 53px;
+}
+.icon-arrow {
+  background-image: url(../sprites/sprite.png);
+  background-position: -257px -209px;
+  width: 37px;
+  height: 21px;
+}
+.icon-ask {
+  background-image: url(../sprites/sprite.png);
+  background-position: -405px -77px;
+  width: 53px;
+  height: 72px;
+}
+.icon-bacbk_data {
+  background-image: url(../sprites/sprite.png);
+  background-position: -405px -209px;
+  width: 51px;
+  height: 50px;
+}
+.icon-best {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px -312px;
+  width: 32px;
+  height: 34px;
+}
+.icon-calendar1 {
+  background-image: url(../sprites/sprite.png);
+  background-position: -65px -365px;
+  width: 60px;
+  height: 57px;
+}
+.icon-calendar2 {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px -365px;
+  width: 60px;
+  height: 61px;
+}
+.icon-check {
+  background-image: url(../sprites/sprite.png);
+  background-position: -405px -345px;
+  width: 11px;
+  height: 11px;
+}
+.icon-cost {
+  background-image: url(../sprites/sprite.png);
+  background-position: -142px -312px;
+  width: 137px;
+  height: 48px;
+}
+.icon-deposit {
+  background-image: url(../sprites/sprite.png);
+  background-position: -284px -312px;
+  width: 44px;
+  height: 43px;
+}
+.icon-details {
+  background-image: url(../sprites/sprite.png);
+  background-position: -333px -312px;
+  width: 42px;
+  height: 43px;
+}
+.icon-dot {
+  background-image: url(../sprites/sprite.png);
+  background-position: -421px -345px;
+  width: 8px;
+  height: 8px;
+}
+.icon-ensure {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px -101px;
+  width: 39px;
+  height: 38px;
+}
+.icon-execute {
+  background-image: url(../sprites/sprite.png);
+  background-position: -312px -264px;
+  width: 49px;
+  height: 43px;
+}
+.icon-fast {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px -351px;
+  width: 30px;
+  height: 35px;
+}
+.icon-invest {
+  background-image: url(../sprites/sprite.png);
+  background-position: -405px -319px;
+  width: 42px;
+  height: 21px;
+}
+.icon-member {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px -391px;
+  width: 39px;
+  height: 25px;
+}
+.icon-method {
+  background-image: url(../sprites/sprite.png);
+  background-position: -312px -187px;
+  width: 53px;
+  height: 72px;
+}
+.icon-multie {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px -230px;
+  width: 39px;
+  height: 38px;
+}
+.icon-number {
+  background-image: url(../sprites/sprite.png);
+  background-position: -405px -264px;
+  width: 51px;
+  height: 50px;
+}
+.icon-password {
+  background-image: url(../sprites/sprite.png);
+  background-position: -370px -226px;
+  width: 21px;
+  height: 23px;
+}
+.icon-person {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px -187px;
+  width: 39px;
+  height: 38px;
+}
+.icon-phone {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px -273px;
+  width: 35px;
+  height: 34px;
+}
+.icon-sincerity {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px -58px;
+  width: 39px;
+  height: 38px;
+}
+.icon-stable {
+  background-image: url(../sprites/sprite.png);
+  background-position: -463px -144px;
+  width: 39px;
+  height: 38px;
+}
+.icon-time {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px -312px;
+  width: 137px;
+  height: 48px;
+}
+.icon-trade {
+  background-image: url(../sprites/sprite.png);
+  background-position: -405px 0px;
+  width: 53px;
+  height: 72px;
+}
+.icon-trans {
+  background-image: url(../sprites/sprite.png);
+  background-position: -257px -156px;
+  width: 48px;
+  height: 48px;
+}
+.icon-unionPay {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px 0px;
+  width: 151px;
+  height: 151px;
+}
+.icon-user {
+  background-image: url(../sprites/sprite.png);
+  background-position: -366px -264px;
+  width: 20px;
+  height: 23px;
+}
+.icon-warn {
+  background-image: url(../sprites/sprite.png);
+  background-position: -156px -251px;
+  width: 137px;
+  height: 48px;
+}
+.icon-weibo {
+  background-image: url(../sprites/sprite.png);
+  background-position: -232px -365px;
+  width: 22px;
+  height: 18px;
+}
+.icon-withdrawal {
+  background-image: url(../sprites/sprite.png);
+  background-position: -405px -154px;
+  width: 51px;
+  height: 50px;
+}
+.icon-word {
+  background-image: url(../sprites/sprite.png);
+  background-position: 0px -156px;
+  width: 151px;
+  height: 151px;
+}
+.icon-wu {
+  background-image: url(../sprites/sprite.png);
+  background-position: -156px 0px;
+  width: 151px;
+  height: 151px;
+}
