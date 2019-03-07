@@ -1412,3 +1412,64 @@ footer .footer-top {
   width: 51px;
   height: 50px;
 }
+.easy-banner,
+.easy-banner img {
+	width: 100%;
+}
+.easy-part-one,
+.easy-part-three {
+	width: 100%;
+	background: #616161;
+	position: relative;
+}
+.source,
+.fluctuation {
+	width: 1020px;
+	margin: 0 auto;
+	position: relative;
+	padding: 95px 0px 88px;
+}
+.fluctuation {
+	padding: 110px 0px 120px;
+}
+.source-text h3,
+.fluctuation-text h3 {
+	color: #f6fbff;
+	font-size: 22px;
+	padding-bottom: 30px;
+}
+.source-text p,
+.fluctuation-text p {
+	color:#d5d9dc;
+	padding-bottom: 30px;
+	line-height: 1.8;
+}
+.source-pic,
+.slippage-pic,
+.fluctuation-pic {
+	margin-right: 30px;
+}
+.fluctuation-pic {
+	margin-top: 22px;
+}
+.easy-part-two {
+	width: 100%;
+	background: #fff;
+	position: relative;
+}
+.slippage {
+	width: 1020px;
+	margin: 0 auto;
+	position: relative;
+	padding: 55px 0px 60px;
+}
+.slippage-text p  {
+	color:#6b6b6b;
+	padding-bottom: 30px;
+	line-height: 1.8;
+}
+.slippage-text h3 {
+	color: #6b6b6b;
+	font-size: 22px;
+	padding-bottom: 30px;
+}
