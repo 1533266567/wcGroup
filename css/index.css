@@ -156,12 +156,14 @@ textarea::-webkit-input-placeholder {
 
 
 .website {
-/*	width: 100%;
-*/
+	width: 1200px;
+	margin: 0 auto;
 }
 .website header {
 	width: 100%;
 	padding-top: 100px;
+	text-align: center;;
+	font-size: 80px;
 }
 .website header .logo {
 	width: 1200px;
