@@ -1473,3 +1473,119 @@ footer .footer-top {
 	font-size: 22px;
 	padding-bottom: 30px;
 }
+.trade-banner,
+.trade-banner img {
+	width: 100%;
+}
+.trade-part-one,
+.trade-part-three {
+	width: 100%;
+	background: #616161;
+}
+.trade-explain {
+	width: 890px;
+	margin: 118px auto 0px;
+	position: relative;
+	padding-bottom: 70px;
+}
+.icon-ask {
+  background-image: url(../images/sprite.png);
+  background-position: -405px -77px;
+  width: 53px;
+  height: 72px;
+}
+.trade-explain > .icon-ask {
+	margin-right: 90px;
+
+}
+.trade-explain-text {
+	flex: 1;
+}	
+.trade-explain-text h3 {
+	font-size: 22px;
+	color: #fff;
+	padding-bottom: 35px;
+}
+.trade-explain-text p {
+	color: #eef3f7;
+	padding-bottom: 30px;
+	line-height: 1.8;
+}
+.trade-part-two {
+	width: 100%;
+	background: #fff;
+}
+.trade-define {
+	width: 890px;
+	margin: 0 auto;
+	position: relative;
+}
+.trade-define-top {
+	width: 100%;
+	padding-top: 100px;
+}
+.icon-trade {
+  background-image: url(../images/sprite.png);
+  background-position: -405px 0px;
+  width: 53px;
+  height: 72px;
+}
+.trade-define-top .icon-trade {
+	margin-right: 90px;
+}
+.trade-define-top-text {
+	flex: 1;
+}
+.trade-define-top-text p {
+	color: #6b6b6b;
+	padding-bottom: 33px;
+	line-height: 1.8;
+}
+.trade-define-top-text h3 {
+	font-size: 22px;
+	color: #616161;
+	padding-bottom: 33px;
+}
+.trade-define-bottom {
+	padding-left: 70px;
+	padding-bottom: 70px;
+}
+.icon-arrow {
+  background-image: url(../images/sprite.png);
+  background-position: -257px -209px;
+  width: 37px;
+  height: 21px;
+}
+.trade-arrow {
+	margin-right: 30px;
+}
+.trade-arrow > i {
+	display: inline-block;
+}
+.abnormal-list-text {
+	flex: 1;
+}
+.abnormal-list-text h5 {
+	color: #737172;
+	padding-bottom: 10px;
+}
+.abnormal-list-text p {
+	color: #181215;
+	line-height: 1.8;
+	padding-bottom: 30px;
+}
+.trade-method {
+	width: 890px;
+	margin: 0px auto;
+	position: relative;
+	padding: 170px 0px 140px;
+}
+.trade-method .icon-method {
+	margin-right: 80px;
+}
+.icon-method {
+  background-image: url(../images/sprite.png);
+  background-position: -312px -187px;
+  width: 53px;
+  height: 72px;
+}
