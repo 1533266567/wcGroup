@@ -2390,3 +2390,145 @@ footer .footer-top {
 	margin-top: -2px;
 	margin-left: -2px;
 }
+.knowledge-page  {
+	padding: 160px 0px 170px 160px;
+	border-left: 1px solid #616161;
+}
+.knowledge-page li{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #000;
+	margin-right: 6px;
+	text-align: center;
+	line-height: 30px;
+}
+.knowledge-page li a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.knowledge-page .next {
+	width: 137px;
+	font-size: 16px;
+}
+.download-part-one {
+	width: 100%;
+	background: #616161;
+	position: relative;
+}
+.platform {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.left-hand {
+	position: absolute;
+	left: -180px;
+	top: 0px;
+}
+.right-hand {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.platform-main {
+	width: 680px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 110px;
+	padding-bottom: 140px;
+}
+.platform-main > h3 {
+	color: #fff;
+	font-size: 22px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.platform-main > p {
+	color:#f6fbff;
+	line-height: 1.8;
+	padding-bottom: 30px;
+}
+.platform-detail  {
+	padding-top: 63px;
+}
+.platform-detail > p {
+	padding-bottom: 44px;
+}
+.platform-detail > p em {
+	font-size: 17px;
+	color: #fff;
+	font-style: italic;
+	padding-bottom: 6px;
+	display: block;
+}
+.platform-detail > p span {
+	font-size: 12px;
+	color: #d5d9dc;
+	font-style: italic;
+	display: block
+}
+.platform-pic {
+	margin-left: -40px;
+	margin-top: -50px;
+}
+.platform-pc {
+	text-align: center;
+}
+.download-link {
+	width: 450px;
+	height: 80px;
+	padding: 27px; 
+	color: #fff;
+	font-size: 22px;
+	display: block;
+	border: 1px solid #fff;
+	margin: 20px auto 0px;
+	text-align: center;
+}
+.download-part-two {
+	width: 100%;
+	background: #c02d36;
+	position: relative;
+}
+.form-download {
+	width: 590px;
+	margin: 0 auto;
+	padding-top: 37px;
+	overflow: hidden;
+	padding-bottom: 120px;
+}
+.icon-arrow-down {
+  background-image: url(../images/sprite.png);
+  background-position: -463px 0px;
+  width: 40px;
+	height: 53px;
+	margin: 0 auto;
+}
+.form-download h3 {
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	padding: 65px 0px 55px;
+}
+.transfer-link {
+	display: block;
+	padding: 20px 25px;
+	border: 1px solid #fff;
+	margin-bottom: 52px;
+	width: 578px;
+}
+.transfer-link > i {
+	display: inline-block;
+	width: 40px;
+	height: 50px;
+	background: url('../images/product/book.png') no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+}
+.transfer-link > span {
+	color: #fff;
+	font-size: 16px;
+	vertical-align: middle;
+	margin-left: 22px;
+}
