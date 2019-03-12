@@ -30,7 +30,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-adnormal {
   background-image: url(../sprites/sprite.png);
-  background-position: -186px -365px;
+  background-position: -332px -365px;
   width: 41px;
   height: 43px;
 }
@@ -108,15 +108,21 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-deposit {
   background-image: url(../sprites/sprite.png);
-  background-position: -284px -312px;
+  background-position: -236px -365px;
   width: 44px;
   height: 43px;
 }
 .icon-details {
   background-image: url(../sprites/sprite.png);
-  background-position: -333px -312px;
+  background-position: -285px -365px;
   width: 42px;
   height: 43px;
+}
+.icon-dispute {
+  background-image: url(../sprites/sprite.png);
+  background-position: -334px -312px;
+  width: 45px;
+  height: 45px;
 }
 .icon-dot {
   background-image: url(../sprites/sprite.png);
@@ -126,7 +132,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-ensure {
   background-image: url(../sprites/sprite.png);
-  background-position: -463px -101px;
+  background-position: -463px -187px;
   width: 39px;
   height: 38px;
 }
@@ -162,7 +168,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-multie {
   background-image: url(../sprites/sprite.png);
-  background-position: -463px -230px;
+  background-position: -463px -144px;
   width: 39px;
   height: 38px;
 }
@@ -180,7 +186,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-person {
   background-image: url(../sprites/sprite.png);
-  background-position: -463px -187px;
+  background-position: -463px -230px;
   width: 39px;
   height: 38px;
 }
@@ -190,6 +196,12 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 35px;
   height: 34px;
 }
+.icon-privacy {
+  background-image: url(../sprites/sprite.png);
+  background-position: -186px -365px;
+  width: 45px;
+  height: 45px;
+}
 .icon-sincerity {
   background-image: url(../sprites/sprite.png);
   background-position: -463px -58px;
@@ -198,9 +210,15 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-stable {
   background-image: url(../sprites/sprite.png);
-  background-position: -463px -144px;
+  background-position: -463px -101px;
   width: 39px;
   height: 38px;
+}
+.icon-terms {
+  background-image: url(../sprites/sprite.png);
+  background-position: -284px -312px;
+  width: 45px;
+  height: 45px;
 }
 .icon-time {
   background-image: url(../sprites/sprite.png);
@@ -240,7 +258,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-weibo {
   background-image: url(../sprites/sprite.png);
-  background-position: -232px -365px;
+  background-position: -378px -365px;
   width: 22px;
   height: 18px;
 }
