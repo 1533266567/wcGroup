@@ -2616,3 +2616,13 @@ footer .footer-top {
 	text-align: center;
 	padding-bottom: 25px;
 }
+.table-list .last-td {
+	padding: 0px;
+}
+.exotic  {
+	border-bottom: 1px solid #ababab;
+}
+.exotic li{
+	border-right: 1px solid #ababab;
+	padding: 5px 0px;
+}
