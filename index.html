@@ -9,57 +9,7 @@
 </head>
 <body>
     <div class="website">
-        <header>
-            <div class="logo">
-                <img src="./images/logo.png" alt="">
-            </div>
-        </header>
-        <nav>
-            <ul class="nav-list flex">
-                <li>
-                    <a href="">
-                        <em>集團首頁</em>
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <em>關於文傳</em>
-                        <span>About Us</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <em>產品服務</em>
-                        <span>OUR Products</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <em>文傳學院</em>
-                        <span>Study Center</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <em>條則細款</em>
-                        <span>Terms </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <em>下載中心</em>
-                        <span>download</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <em>在線客服</em>
-                        <span>online service</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <div id="header"></div>
          <section class="banner-wrap">
             <div class="banner flex">
                 <div class="banner-text">
@@ -324,76 +274,13 @@
 				<a href="#"></a>
 			</div>
         </section>
-        <footer>
-        	<div class="footer-main">
-        		<ul class="footer-top flex">
-					<li>
-						<i class="icon-ensure"></i>
-						<span>公司信用保證</span>
-					</li>
-					<li>
-						<i class="icon-stable"></i>
-						<span>平台穩定流暢</span>
-					</li>
-					<li>
-						<i class="icon-sincerity"></i>
-						<span>金銀貿易證書</span>
-					</li>
-					<li>
-						<i class="icon-multie"></i>
-						<span>投資項目多元</span>
-					</li>
-					<li>
-						<i class="icon-person"></i>
-						<span>專業服務人員</span>
-					</li>
-	        	</ul>
-				<div class="footer-rule">
-					<ul class="footer-rule-list flex">
-						<li>
-							<h5 class="rule-title">客户须知︱Customer notification</h5>
-							<p><a href="" class="other-link">隐私条款︱Privacy policy</a></p>
-							<p><a href="" class="other-link">条款及细则︱Terms and conditions</a></p>
-							<p><a href="" class="other-link">争端处理︱Dispute settlement</a></p>
-							<p><a href="" class="other-link">緩存︱Cookies</a></p>
-						</li>
-						<li>
-							<h5 class="rule-title">風險提示︱Risk warning</h5>
-							<p>差價合約買賣涉及潛在的利潤與損失，若買賣情況不利，損失有可能超過最初保證金的金額。
-							差價合約買賣的價位波動受全球性的多種因素所影響。這些因素許多是難以預計的，差價合約
-							價格的劇烈波動可能導致投資者無法把失利的買賣結算。結算盈虧文傳的職員雖然不斷注意市
-							況，但他們並不能作出任何預測準確性的保證，也不能保證任何損失不超過一定的金額。</p>
-							<p>Trading in CFDs involves potential profits and losses. Losses may exceed the amount of 
-							the initial deposit if the trading conditions are unfavorable. Fluctuations in the price of 
-							CFDs are affected by a variety of global factors, and many of these factors are difficult to 
-							predict. And the wild fluctuations in the price of CFDs may cause investors to fail to settle 
-							profits and losses. Although the staff of Wenchuan constantly pay attention to the market 
-							conditions, they cannot guarantee any accuracy of prediction, nor can they guarantee that 
-							loss does not exceed a certain amount.</p>
-						</li>
-						<li>
-							<h5 class="rule-title">聯繫我們︱Contact Us</h5>
-							<p>中國免費電話：4001 203 612</p>
-							<p>郵箱：info@fxwc.hk</p>
-							<p>地址： Fifth Floor, 3 Gower St.London, United Kingdom, WC1E 6 HA</p>
-							<a href="#" class="toWeibo"><i class="icon-weibo"></i> 前往官方微博︱Go Weibo</a>
-							<a href="#" class="informate">諮詢服務︱Question</a>
-						</li>
-					</ul>
-					<div class="copyright">Copyright © 2019 ︱金银业贸易场颁发AA级最高级别的12号行员牌照︱The No.12 license is issued by the gold & silver trading center</div>
-				</div>
-        	</div>
-        </footer>
+        <div id="footer"></div>
 	</div>
-	<script src="js/jquery.min.js"></script>
-	<script>
-	 let a = $(window).width();
-	 if( a > 1000) {
-		$('.website').css('width','100%');
-		console.log(123);
-		
-	 } 
-	 
-	</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+	$('#header').load('common/header.html');
+	$('#footer').load('common/footer.html');
+</script>
 </body>
 </html>

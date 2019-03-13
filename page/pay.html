@@ -3,12 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<title>在线支付</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
 	<div class="website">
-		<div class="pay-banner">
+		<div id="header"></div>
+		<div class="top-banner">
 			<img src="../images/product/pay-banner.png">
 		</div>
 		<section class="pay-part-one">
@@ -232,6 +234,13 @@
 				</div>
 			</div>
 		</section>
+		<div id="footer"></div>
 	</div>
+<script src="../js/jquery.min.js"></script>
+<!-- <script src="../js/common.js"></script> -->
+<script>
+    $('#header').load('../common/header.html');
+    $('#footer').load('../common/footer.html');
+</script>
 </body>
 </html>
