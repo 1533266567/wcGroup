@@ -249,36 +249,35 @@ nav .nav-list li::after {
 	width: 1200px;
 	margin: 0 auto;
 }
-.banner .banner-text {
-	margin-right: 80px;
+.banner-text {
+	width: 452px;
+	margin-top: 78px;
 }
 .banner-text .banner-pic {
-	padding: 80px 0px 18px 100px;
+	margin-bottom: 40px;
+	width: 100%;
 }
 .simulation-btn,
 .real-btn {
-	width: 253px;
+	width: 100%;
 	display: inline-block;
-	padding: 12px 39px 10px;
+	padding: 10px 0px;
 	background: #47975c;
 	color: #fff;
 	text-align: center;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-}
-.simulation-btn {
-	margin-left: 80px;
+	margin-bottom: 10px;
 }
 .simulation-btn span,
 .real-btn span {
-	font-size: 20px;
+	font-size: 18px;
 	display: block;
 	text-align: center;
 	padding-bottom: 3px;
 }
 .real-btn {
 	background: #dd873c;
-	margin-left: 18px;
 }
 .login-box {
 	margin-top: 30px;
@@ -387,9 +386,15 @@ nav .nav-list li::after {
 	width: 1200px;
 	margin: 0 auto;
 	z-index: 10;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
+	padding-bottom: 18px;
 }
 .person-pic {
-	margin-top: -212px;
+	margin-top: -6px;
+	margin-left: -35px;
+	margin-right: 30px;
 }
 .advantag-right .advantage-list {
 	padding-top: 15px;
