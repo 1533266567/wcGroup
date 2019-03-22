@@ -203,10 +203,10 @@ header .logo .logo-pic {
 }
 .website nav {
 	width: 100%;
-	margin-top:30px;
 	background: url('../images/mavBg.png') #616161 no-repeat;
 	background-position: left; 
 	background-size: 100% 100%;
+	position: relative;
 }
 nav .nav-list {
 	width: 1200px;
@@ -238,6 +238,34 @@ nav .nav-list li::after {
 .nav-list li span {
 	font-size: 14px;
 	display: block;
+}
+.language-list {
+	width: 910px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px 0px 10px 20px;
+	overflow: hidden;
+}
+.language-list .language {
+	float: right;
+}
+.language-list .language > a{
+	display: inline-block;
+	width: 34px;
+	height: 20px;
+	background: url(../images/cn.png) no-repeat;
+	background-size: contain;
+	margin-right: 5px;
+}
+.language-list .language > a:nth-child(2){
+	background: url(../images/hk.png) no-repeat;
+}
+.language-list .language > a:nth-child(3){
+	background: url(../images/en.png) no-repeat;
+}
+.language-list .language > a:nth-child(4){
+	background: url(../images/vt.png) no-repeat;
+	margin-right: 0px;
 }
 .banner-wrap {
 	width: 100%;
@@ -2640,3 +2668,4 @@ footer .footer-top {
 	border-right: 1px solid #ababab;
 	padding: 5px 0px;
 }
+
