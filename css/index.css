@@ -920,6 +920,7 @@ footer .footer-top {
 .special-list .special-bottom em {
 	padding-bottom: 5px;
 	display: block;
+	color: #fff;
 }
 .icon-trans {
   background-image: url(../images/sprite.png);
@@ -941,7 +942,7 @@ footer .footer-top {
 }
 .icon-adnormal {
   background-image: url(../images/sprite.png);
-  background-position: -186px -365px;
+  background-position: -332px -365px;
   width: 41px;
   height: 43px;
 }
@@ -2510,6 +2511,18 @@ footer .footer-top {
 .platform-pic {
 	margin-left: -40px;
 	margin-top: -50px;
+	position: relative;
+	width: 440px;
+}
+.iphone-code {
+	position: absolute;
+	right: -35px;
+	top: 140px;
+}
+.andiord-code {
+	position: absolute;
+	right: -35px;
+	bottom: 170px;
 }
 .platform-pc {
 	text-align: center;
