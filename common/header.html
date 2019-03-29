@@ -55,5 +55,27 @@
                 <span>online service</span>
             </a>
         </li>
+        <li  class="js-member-login">
+            <a href="javascript:;">
+                <em>會員登錄</em>
+                <span>LOGIN</span>
+            </a>
+            <div class="member-link">
+                <a href="">
+                    <span>管理後台</span>
+                    <i>Member login</i>
+                </a>
+                <a href="">
+                    <span>經紀後台</span>
+                    <i>IB login</i>
+                </a>
+            </div>
+        </li>
     </ul>
 </nav>
+<script type="text/javascript">
+     $('.js-member-login').on('click',function() {
+        console.log(11)
+        $('.member-link').toggle();
+     })
+</script>

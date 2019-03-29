@@ -211,11 +211,10 @@ header .logo .logo-pic {
 nav .nav-list {
 	width: 1200px;
 	margin: 0 auto;
-	overflow: hidden;
 	padding: 0px 110px;
 }
 nav .nav-list li {
-	padding: 19px 45px 13px 10px;
+	padding: 19px 40px 13px 10px;
 	position: relative;
 }
 nav .nav-list li::after {
@@ -232,7 +231,7 @@ nav .nav-list li::after {
 }
 .nav-list li em {
 	padding-bottom: 6px;
-	font-size: 20px;
+	font-size: 16px;
 	display: block;
 }
 .nav-list li span {
@@ -266,6 +265,31 @@ nav .nav-list li::after {
 .language-list .language > a:nth-child(4){
 	background: url(../images/vt.png) no-repeat;
 	margin-right: 0px;
+}
+.member-link {
+	position: absolute;
+	left: -15px;
+	top: 73px;
+	width: 100%;
+	z-index: 100;
+	background: #fff;
+	display: none;
+}
+.member-link > a {
+	display: block;
+	padding: 14px 0px 12px 18px;
+	color: #6b6b6b;
+	border: 1px solid #747474;
+}
+.member-link > a:last-child {
+	border-top: none;
+}
+.member-link > a span {
+	font-size: 15px;color: #6b6b6b;
+	padding-bottom: 6px;
+}
+.member-link > a i {
+	color: #6b6b6b;
 }
 .banner-wrap {
 	width: 100%;
@@ -2681,4 +2705,3 @@ footer .footer-top {
 	border-right: 1px solid #ababab;
 	padding: 5px 0px;
 }
-
