@@ -40,19 +40,19 @@
         <li>
             <a href="">
                 <em>條則細款</em>
-                <span>Terms </span>
+                <span>Terms</span>
             </a>
         </li>
         <li>
             <a href="">
                 <em>下載中心</em>
-                <span>download</span>
+                <span>Download</span>
             </a>
         </li>
         <li>
             <a href="">
                 <em>在線客服</em>
-                <span>online service</span>
+                <span>Online service</span>
             </a>
         </li>
         <li  class="js-member-login">
@@ -73,9 +73,45 @@
         </li>
     </ul>
 </nav>
+<aside class="side-list">
+    <ul>
+        <li>
+            <a href="" class="side-link">
+                <i></i>
+                <span>在線客服</span>
+            </a>
+        </li>
+        <li>
+            <a href="" class="side-link">
+                <i></i>
+                <span>開立帳戶</span>
+            </a>
+        </li>
+        <li>
+            <a href="" class="side-link">
+                 <i></i>
+                <span>客戶中心</span>
+            </a>
+        </li>
+        <li>
+            <a href="" class="side-link">
+                <i></i>
+                <span>前往微博</span>
+            </a>
+        </li>
+        <li class="js-back-top">
+            <a href="javascript:;" class="side-link">
+                <i></i>
+                <span>返回頂部</span>
+            </a>
+        </li>
+    </ul>
+</aside>
 <script type="text/javascript">
      $('.js-member-login').on('click',function() {
-        console.log(11)
         $('.member-link').toggle();
+     })
+     $('.js-back-top').on('click',function() {
+        $('html,body').scrollTop(0);
      })
 </script>

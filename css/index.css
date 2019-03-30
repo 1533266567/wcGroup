@@ -235,7 +235,7 @@ nav .nav-list li::after {
 	display: block;
 }
 .nav-list li span {
-	font-size: 14px;
+	font-size: 12px;
 	display: block;
 }
 .language-list {
@@ -2704,4 +2704,62 @@ footer .footer-top {
 .exotic li{
 	border-right: 1px solid #ababab;
 	padding: 5px 0px;
+}
+.side-list {
+	position: fixed;
+	right: 30px;
+	top: 47%;
+	z-index: 10000;
+}
+.side-list li {
+	margin-bottom: 9px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	overflow: hidden;
+}
+.side-list .side-link {
+	display: block;
+	padding: 11px 13px;
+	background: #f36e6e;
+	text-align: center;
+}
+.side-list li:first-child .side-link {
+	background: #f54d4d;
+}
+.side-list .side-link > span {
+	color: #fff;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.side-list .side-link > i {
+	display: block;
+	margin: 0px auto 10px;
+	background-size: contain;
+}
+.side-list li:first-child  i {
+	width: 32px;
+	height: 33px;
+	background: url(../images/side-server.png) no-repeat;
+
+}
+.side-list li:nth-child(2) i {
+	width: 30px;
+	height: 31px;
+	background: url(../images/account.png) no-repeat;
+}
+.side-list li:nth-child(3) i {
+	width: 30px;
+	height: 31px;
+	background: url(../images/customer.png) no-repeat;
+}
+.side-list li:nth-child(4) i {
+	width: 32px;
+	height: 26px;
+	background: url(../images/side-weibo.png) no-repeat;
+}
+.side-list  li:last-child i {
+	width: 33px;
+	height: 23px;
+	background: url(../images/to-top.png) no-repeat;
 }
