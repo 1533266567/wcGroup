@@ -275,6 +275,25 @@
 				<a href="#"></a>
 			</div>
         </section>
+        <div class="popup-box">
+			<h3 class="popup-title">
+				新聞公告︱News and notes
+				<i class="popup-icon"></i>
+			</h3>
+			<div class="popup-content">
+				<h5>清明假期安排</h5>
+				<p>尊貴的客戶：</p>
+				<p class="p30">本公司產品之交易及出入金時間因清明假期(2019年4月5日)將有以下更改:- </p>
+				<p class="p30">日期：2019年4月5日</p>
+				<p class="p30">交易時間：正常</p>
+				<p class="p30">入金服務：正常</p>
+				<p class="p30">出金服務：暫停</p>
+				<p class="p30">2019年4月5日</p>
+				<p>出金到賬時間可能因假期關係而被延遲。</p>
+				<p>如有任何疑問，請與本公司24小時客服聯繫。</p>
+			</div>
+
+        </div>
         <div id="footer"></div>
 	</div>
 <script src="js/jquery.min.js"></script>
@@ -282,6 +301,9 @@
 <script>
 	$('#header').load('common/header.html');
 	$('#footer').load('common/footer.html');
+	$('.popup-icon').on('click',function() {
+		$('.popup-box').hide();
+	})
 </script>
 </body>
 </html>
