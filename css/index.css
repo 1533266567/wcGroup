@@ -1218,7 +1218,7 @@ footer .footer-top {
 	padding-left: 20px;
 }
 .pro-server-link {
-	width: 470px;
+	/* width: 470px; */
 	height: 60px;
 	margin-top: 32px;
 	line-height: 60px;
@@ -2191,10 +2191,13 @@ footer .footer-top {
 	position: relative;
 }
 .about-server {
-	width: 820px;
-	margin: 0 auto;
+	min-width: 820px;
+	/* margin: 0 auto; */
 	position: relative;
 	padding-top: 40px;
+}
+.server-wrap {
+	margin: 0 auto;
 }
 .about-server-pic {
 	margin-top: 36px;
@@ -2709,7 +2712,7 @@ footer .footer-top {
 .side-list {
 	position: fixed;
 	right: 30px;
-	top: 38%;
+	top: 26%;
 	z-index: 10000;
 }
 .side-list li {
